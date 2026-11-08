@@ -1,0 +1,241 @@
+﻿Diagnose log at 2026-11-08T05:07:56Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.7.3+5fa7116896c82164996a609accd1c5ad90fe730a
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26100)
+Reading environment variables... OK
+ Variables:
+CONFIG_SITE=C:/Program Files/Git/etc/config.site
+OS=Windows_NT
+TMP=C:\Users\ASUS\AppData\Local\Temp
+SYSTEMROOT=C:\Windows
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+ORIGINAL_TEMP=C:/Users/ASUS/AppData/Local/Temp
+SHLVL=1
+APPCODE_VM_OPTIONS=C:\Program Files\JetBrains\ja-netfilter-all\vmoptions\appcode.vmoptions
+GATEWAY_VM_OPTIONS=C:\Program Files\JetBrains\ja-netfilter-all\vmoptions\gateway.vmoptions
+ACSetupSvcPort=23210
+ProgramData=C:\ProgramData
+PATH=C:/Program Files/Git/mingw64/libexec/git-core;C:\Users\ASUS\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ASUS\bin;C:\Users\ASUS\.vscode\extensions\vadimcn.vscode-lldb-1.12.3\bin;C:\Users\ASUS\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\gradle\latest\bin;C:\Users\ASUS\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\maven\latest\bin;C:\Users\ASUS\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\25\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\dotnet;C:\TDM-GCC-64\bin;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\php-8.5.6;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Microsoft SQL Server\170\Tools\Binn;C:\Users\ASUS\scoop\shims;C:\Users\ASUS\AppData\Local\agy\bin;C:\laragon\bin\composer;C:\laragon\bin\git\bin;C:\laragon\bin\git\cmd;C:\laragon\bin\git\mingw64\bin;C:\laragon\bin\git\usr\bin;C:\laragon\bin\mysql\mysql-8.4.3-winx64\bin;C:\laragon\bin\ngrok;C:\laragon\bin\nodejs\node-v22;C:\laragon\bin\php\php-8.4.5-nts-Win32-vs17-x64;C:\laragon\bin\postgresql\pgsql-18\bin;C:\laragon\bin\python\python-3.13;C:\laragon\bin\python\python-3.13\Scripts;C:\laragon\usr\bin;C:\Users\ASUS\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\ASUS\AppData\Roaming\Composer\vendor\bin;C:\Users\ASUS\AppData\Roaming\npm;C:\Users\ASUS\.local\bin;C:\Users\ASUS\AppData\Local\Programs\Python\Python314;C:\Users\ASUS\AppData\Local\Programs\Python\Python314\Scripts;C:\Users\ASUS\AppData\Local\Programs\Python\Launcher;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2025.2.2\bin;C:\ProgramData\ASUS\GitHubDesktop\bin;D:\Program Files\JetBrains\IntelliJ IDEA 2026.1.4\bin;C:\Users\ASUS\.dotnet\tools;C:\Users\ASUS\AppData\Local\Programs\DockerDesktop\resources\bin;C:\Users\ASUS\.vscode\extensions\vscjava.vscode-java-debug-0.60.0\bundled\scripts\noConfigScripts;C:\Users\ASUS\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+ORIGINAL_PATH=C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ASUS\bin;C:\Users\ASUS\.vscode\extensions\vadimcn.vscode-lldb-1.12.3\bin;C:\Users\ASUS\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\gradle\latest\bin;C:\Users\ASUS\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\maven\latest\bin;C:\Users\ASUS\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\25\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\dotnet;C:\TDM-GCC-64\bin;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\php-8.5.6;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Microsoft SQL Server\170\Tools\Binn;C:\Users\ASUS\scoop\shims;C:\Users\ASUS\AppData\Local\agy\bin;C:\laragon\bin\composer;C:\laragon\bin\git\bin;C:\laragon\bin\git\cmd;C:\laragon\bin\git\mingw64\bin;C:\laragon\bin\git\usr\bin;C:\laragon\bin\mysql\mysql-8.4.3-winx64\bin;C:\laragon\bin\ngrok;C:\laragon\bin\nodejs\node-v22;C:\laragon\bin\php\php-8.4.5-nts-Win32-vs17-x64;C:\laragon\bin\postgresql\pgsql-18\bin;C:\laragon\bin\python\python-3.13;C:\laragon\bin\python\python-3.13\Scripts;C:\laragon\usr\bin;C:\Users\ASUS\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\ASUS\AppData\Roaming\Composer\vendor\bin;C:\Users\ASUS\AppData\Roaming\npm;C:\Users\ASUS\.local\bin;C:\Users\ASUS\AppData\Local\Programs\Python\Python314;C:\Users\ASUS\AppData\Local\Programs\Python\Python314\Scripts;C:\Users\ASUS\AppData\Local\Programs\Python\Launcher;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2025.2.2\bin;C:\ProgramData\ASUS\GitHubDesktop\bin;D:\Program Files\JetBrains\IntelliJ IDEA 2026.1.4\bin;C:\Users\ASUS\.dotnet\tools;C:\Users\ASUS\AppData\Local\Programs\DockerDesktop\resources\bin;C:\Users\ASUS\.vscode\extensions\vscjava.vscode-java-debug-0.60.0\bundled\scripts\noConfigScripts;C:\Users\ASUS\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim
+FPS_BROWSER_USER_PROFILE_STRING=Default
+DISPLAY=needs-to-be-defined
+EnableLog=VERBOSE
+IntelliJ IDEA=D:\Program Files\JetBrains\IntelliJ IDEA 2026.1.4\bin
+TERM_PROGRAM=vscode
+IDEA_VM_OPTIONS=C:\Program Files\JetBrains\ja-netfilter-all\vmoptions\idea.vmoptions
+MINGW_CHOST=x86_64-w64-mingw32
+PROCESSOR_REVISION=b701
+MANPATH=C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man
+NUMBER_OF_PROCESSORS=24
+DATASPELL_VM_OPTIONS=C:\Program Files\JetBrains\ja-netfilter-all\vmoptions\dataspell.vmoptions
+CLION_VM_OPTIONS=C:\Program Files\JetBrains\ja-netfilter-all\vmoptions\clion.vmoptions
+ProgramFiles(x86)=C:\Program Files (x86)
+PKG_CONFIG_SYSTEM_LIBRARY_PATH=C:/Program Files/Git/mingw64/lib
+COLORTERM=truecolor
+ZES_ENABLE_SYSMAN=1
+TERM_PROGRAM_VERSION=1.145.1
+PROCESSOR_LEVEL=6
+VSCODE_GIT_ASKPASS_MAIN=c:\Users\ASUS\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7\askpass-main.js
+VSCODE_JDWP_ADAPTER_ENDPOINTS=c:\Users\ASUS\AppData\Roaming\Code\User\workspaceStorage\bdc3f5b41b91ad4a6f20cc6361a559c9\vscjava.vscode-java-debug\.noConfigDebugAdapterEndpoints\endpoint.txt
+PKG_CONFIG_PATH=C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+COMSPEC=C:\Windows\system32\cmd.exe
+WINDIR=C:\Windows
+USERPROFILE=C:\Users\ASUS
+JETBRAINSCLIENT_VM_OPTIONS=C:\Program Files\JetBrains\ja-netfilter-all\vmoptions\jetbrainsclient.vmoptions
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+HOMEPATH=\Users\ASUS
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+MSYSTEM_CARCH=x86_64
+COPILOT_DEBUG_NONCE=e61a6e2450da94f68d3e7963e1f8cf03
+PHPSTORM_VM_OPTIONS=C:\Program Files\JetBrains\ja-netfilter-all\vmoptions\phpstorm.vmoptions
+POSTGIS_GDAL_ENABLED_DRIVERS=GTiff PNG JPEG GIF XYZ DTED USGSDEM AAIGrid
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+GIT_ASKPASS=c:\Users\ASUS\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7\askpass.sh
+COMPUTERNAME=DESKTOP-H1DP35E
+VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+SHELL=C:\Program Files\Git\usr\bin\bash.exe
+_=C:/Program Files/Git/mingw64/bin/git
+LOGONSERVER=\\DESKTOP-H1DP35E
+HOMEDRIVE=C:
+OneDrive=C:\Users\ASUS\OneDrive\Desktop\OneDrive
+ACLOCAL_PATH=C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_19216_ATPJXEPCYDUMAKQZ
+LANG=en_US.UTF-8
+WEBSTORM_VM_OPTIONS=C:\Program Files\JetBrains\ja-netfilter-all\vmoptions\webstorm.vmoptions
+PUBLIC=C:\Users\Public
+STUDIO_VM_OPTIONS=C:\Program Files\JetBrains\ja-netfilter-all\vmoptions\studio.vmoptions
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+ProgramW6432=C:\Program Files
+PS1=\[]633;A\]\[\033]0;$TITLEPREFIX:$PWD\007\]\n\[\033[32m\]\u@\h \[\033[35m\]$MSYSTEM \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\]\n$ \[]633;B\]
+JETBRAINS_CLIENT_VM_OPTIONS=C:\Program Files\JetBrains\ja-netfilter-all\vmoptions\jetbrains_client.vmoptions
+PROMPT=$P$G
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+DEVECOSTUDIO_VM_OPTIONS=C:\Program Files\JetBrains\ja-netfilter-all\vmoptions\devecostudio.vmoptions
+APPDATA=C:\Users\ASUS\AppData\Roaming
+HOSTNAME=DESKTOP-H1DP35E
+VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-2ff09632a4-sock
+MSYSTEM_CHOST=x86_64-w64-mingw32
+EXEPATH=C:\Program Files\Git\bin
+TERM=xterm-256color
+LOCALAPPDATA=C:\Users\ASUS\AppData\Local
+PyCharm=C:\Program Files\JetBrains\PyCharm 2025.2.2\bin
+GOLAND_VM_OPTIONS=C:\Program Files\JetBrains\ja-netfilter-all\vmoptions\goland.vmoptions
+PLINK_PROTOCOL=ssh
+JAVA_HOME=C:\Users\ASUS\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\25
+PYCHARM_VM_OPTIONS=C:\Program Files\JetBrains\ja-netfilter-all\vmoptions\pycharm.vmoptions
+SSH_ASKPASS=C:/Program Files/Git/mingw64/bin/git-askpass.exe
+USERNAME=ASUS
+PWD=D:/Spring_Project/POS_System_project
+VSCODE_JAVA_EXEC=C:\Users\ASUS\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\latest\bin\java
+MSYSTEM_PREFIX=C:/Program Files/Git/mingw64
+DriverData=C:\Windows\System32\Drivers\DriverData
+SYSTEMDRIVE=C:
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+CODELLDB_LAUNCH_CONNECT_FILE=c:\Users\ASUS\AppData\Roaming\Code\User\workspaceStorage\bdc3f5b41b91ad4a6f20cc6361a559c9\vadimcn.vscode-lldb\rpcaddress.txt
+TMPDIR=C:\Users\ASUS\AppData\Local\Temp
+RUBYMINE_VM_OPTIONS=C:\Program Files\JetBrains\ja-netfilter-all\vmoptions\rubymine.vmoptions
+USERDOMAIN=DESKTOP-H1DP35E
+CommonProgramW6432=C:\Program Files\Common Files
+TEMP=C:\Users\ASUS\AppData\Local\Temp
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+WEBIDE_VM_OPTIONS=C:\Program Files\JetBrains\ja-netfilter-all\vmoptions\webide.vmoptions
+ALLUSERSPROFILE=C:\ProgramData
+VSCODE_GIT_ASKPASS_NODE=C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\Code.exe
+POSTGIS_ENABLE_OUTDB_RASTERS=1
+PKG_CONFIG_SYSTEM_INCLUDE_PATH=C:/Program Files/Git/mingw64/include
+GIT_TRACE2_PARENT_SID=303fcb08-7832-4877-bbd6-b204fad94c0d
+PROCESSOR_ARCHITECTURE=AMD64
+MSYSTEM=MINGW64
+INFOPATH=C:\Program Files\Git\mingw64\local\info;C:\Program Files\Git\mingw64\share\info;C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-H1DP35E
+DATAGRIP_VM_OPTIONS=C:\Program Files\JetBrains\ja-netfilter-all\vmoptions\datagrip.vmoptions
+HOME=C:\Users\ASUS
+PROGRAMFILES=C:\Program Files
+ORIGINAL_TMP=C:/Users/ASUS/AppData/Local/Temp
+MINGW_PREFIX=C:/Program Files/Git/mingw64
+RIDER_VM_OPTIONS=C:\Program Files\JetBrains\ja-netfilter-all\vmoptions\rider.vmoptions
+RlsSvcPort=22112
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\ASUS\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\ASUS\AppData\Local\Temp\b0894048988dbfb784bc9612'... OK
+Reading from temporary file 'C:\Users\ASUS\AppData\Local\Temp\b0894048988dbfb784bc9612'... OK
+Deleting temporary file 'C:\Users\ASUS\AppData\Local\Temp\b0894048988dbfb784bc9612'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\ASUS
+UserDataDirectoryPath: C:\Users\ASUS\.gcm
+GetCurrentDirectory(): D:\Spring_Project\POS_System_project
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:62256/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.54.0.windows.1'
+Locating current repository...Git repository at 'D:/Spring_Project/POS_System_project/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig	http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=true
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/ASUS/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/ASUS/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/ASUS/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/ASUS/.gitconfig	filter.lfs.required=true
+file:C:/Users/ASUS/.gitconfig	user.name=satogris100-del
+file:C:/Users/ASUS/.gitconfig	user.email=satogris100@gmail.com
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/satogris100-del/E-commerce_Spring.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\ASUS\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\ASUS\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+

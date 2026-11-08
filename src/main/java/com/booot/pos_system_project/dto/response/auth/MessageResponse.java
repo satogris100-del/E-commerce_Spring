@@ -1,4 +1,4 @@
-package com.booot.pos_system_project.dto.response;
+package com.booot.pos_system_project.dto.response.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.booot.pos_system_project.dto.request;
+package com.booot.pos_system_project.dto.request.auth;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;

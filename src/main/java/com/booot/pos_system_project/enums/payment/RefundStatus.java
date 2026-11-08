@@ -1,4 +1,4 @@
-package com.booot.pos_system_project.enums.order;
+package com.booot.pos_system_project.enums.payment;
 
 public enum RefundStatus {
     REQUESTED, APPROVED,

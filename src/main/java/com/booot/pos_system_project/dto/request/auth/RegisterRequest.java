@@ -1,4 +1,4 @@
-package com.booot.pos_system_project.dto.request;
+package com.booot.pos_system_project.dto.request.auth;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;

@@ -1,4 +1,4 @@
-package com.booot.pos_system_project.enums;
+package com.booot.pos_system_project.enums.product;
 
 public enum ProductStatus {
     DRAFT,

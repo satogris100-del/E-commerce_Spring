@@ -33,6 +33,26 @@ dependencies {
     testCompileOnly("org.projectlombok:lombok")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
     testAnnotationProcessor("org.projectlombok:lombok")
+
+    // JWT
+    implementation("io.jsonwebtoken:jjwt-api:0.12.6")
+    runtimeOnly("io.jsonwebtoken:jjwt-impl:0.12.6")
+    runtimeOnly("io.jsonwebtoken:jjwt-jackson:0.12.6")
+
+    // Mail
+    implementation("org.springframework.boot:spring-boot-starter-mail")
+
+    // Google API client
+    implementation("com.google.api-client:google-api-client:2.7.0")
+
+    // Stripe
+    implementation("com.stripe:stripe-java:29.0.0")
+
+    // Swagger / OpenAPI
+    implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.5")
+
+    // Cloudinary
+    implementation("com.cloudinary:cloudinary-http5:2.0.0")
 }
 
 tasks.withType<Test> {
